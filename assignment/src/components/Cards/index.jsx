@@ -75,7 +75,7 @@ function index({
 									/>
 									<label
 										className="text-gray-800"
-										for="flexCheckDefault"
+										htmlFor="flexCheckDefault"
 									>
 										Subscription
 									</label>
@@ -90,7 +90,7 @@ function index({
 									/>
 									<label
 										className="text-gray-800"
-										for="flexCheckDefault"
+										htmlFor="flexCheckDefault"
 									>
 										Burner
 									</label>

@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
+
+
 import Header from "./Common/Header";
 import SubHeader from "./Common/SubHeader";
 import Cards from "./Cards";
 
-const BASE_URL = "https://volopayserver.glitch.me";
+const BASE_URL = "https://volopayserver.glitch.me/";
 
 const App = () => {
 	const [cards, setCards] = useState([]);

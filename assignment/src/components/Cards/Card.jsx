@@ -1,6 +1,6 @@
 import React from "react";
 import dayjs from "dayjs";
-import { GoPrimitiveDot } from "react-icons/go";
+import { GoDotFill } from "react-icons/go";
 import { ImFire } from "react-icons/im";
 import { TiArrowSyncOutline } from "react-icons/ti";
 import { spentToAvailableCalculator } from "./utils";
@@ -11,7 +11,7 @@ const Card = ({ card }) => {
 		card.available_to_spend.value
 	);
 	return (
-		<figure class="rounded-md p-6 card-container mb-8 shadow-lg border-slate-50">
+		<figure className="rounded-md p-6 card-container mb-8 shadow-lg border-slate-50">
 			<div className="flex items-center justify-between">
 				<div className="flex flex-col">
 					<h3 className="text-xl font-medium mb-1.5 leading-none">
@@ -19,12 +19,12 @@ const Card = ({ card }) => {
 					</h3>
 					<div className="flex items-center text-sm text-gray-400">
 						<span>{card.owner_name}</span>
-						<GoPrimitiveDot className="text-xs mx-1" />
+						<GoDotFill className="text-xs mx-1" />
 						<span>{card.budget_name}</span>
 					</div>
 				</div>
 				<div>
-					<div class="p-4 rounded-full bg-red-50 shadow-md">
+					<div className="p-4 rounded-full bg-red-50 shadow-md">
 						{card.card_type === "burner" ? (
 							<ImFire className="primary-red text-2xl" />
 						) : (
@@ -67,14 +67,14 @@ const Card = ({ card }) => {
 			</div>
 			<div className="text-base text-gray-800 flex items-center justify-between mb-2">
 				<div className="flex items-center">
-					<GoPrimitiveDot className="text-xl mx-1 primary-red" />
+					<GoDotFill className="text-xl mx-1 primary-red" />
 					Spent
 				</div>
 				<div>{`${card.spent.value} ${card.spent.currency}`}</div>
 			</div>
 			<div className="text-base text-gray-800 flex items-center justify-between">
 				<div className="flex items-center">
-					<GoPrimitiveDot className="text-xl mx-1 text-green-600" />
+					<GoDotFill className="text-xl mx-1 text-green-600" />
 					Available to spend
 				</div>
 				<div>{`${card.available_to_spend.value} ${card.available_to_spend.currency}`}</div>
@@ -84,3 +84,4 @@ const Card = ({ card }) => {
 };
 
 export default Card;
+

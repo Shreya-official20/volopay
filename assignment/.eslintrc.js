@@ -18,5 +18,9 @@ module.exports = {
         "react"
     ],
     "rules": {
+        "react/prop-types": "off",
+        
+        "react/no-unknown-property": ["error", { ignore: ["jsx"] }],
+    
     }
 }
