@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/volopay/static/css/main.14a1ce04.css",
+    "main.js": "/volopay/static/js/main.d2e8b6c9.js",
+    "index.html": "/volopay/index.html",
+    "main.14a1ce04.css.map": "/volopay/static/css/main.14a1ce04.css.map",
+    "main.d2e8b6c9.js.map": "/volopay/static/js/main.d2e8b6c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14a1ce04.css",
+    "static/js/main.d2e8b6c9.js"
+  ]
+}
