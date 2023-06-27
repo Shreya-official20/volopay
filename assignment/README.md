@@ -2,7 +2,7 @@
 
 ## Live
 
-Open [] to view it in your browser.
+Open [https://shreya-official20.github.io/volopay/] to view it in your browser.
 
 ## Local Development Setup
 
